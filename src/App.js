@@ -34,9 +34,9 @@ export default function App(props) {
         anchors={[
           "home",
           "about",
+          "education",
           "work",
           "skills",
-          "education",
           "projects",
           "footer",
         ]}
@@ -60,13 +60,12 @@ export default function App(props) {
               <Home />
               <Border />
               <About />
-              
+              <Border />
+              <Education />
               <Border />
               <Work />
               <Border />
               <Skills />
-              <Border />
-              <Education />
               <Border />
               <Projects />
               

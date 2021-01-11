@@ -25,6 +25,15 @@ export default function Navbar() {
               <h6 className="nav-section-text">About</h6>
             </a>
           </li>
+          <li className="nav-item">
+            <a
+              id="education-nav"
+              className="nav-link js-scroll"
+              href="#education"
+            >
+              <h6 className="nav-section-text">Education</h6>
+            </a>
+          </li>
          <li className="nav-item">
             <a id="work-nav" className="nav-link js-scroll" href="#work">
               <h6 className="nav-section-text">Experience</h6>
@@ -36,15 +45,7 @@ export default function Navbar() {
               <h6 className="nav-section-text">Services</h6>
             </a>
           </li>
-          <li className="nav-item">
-            <a
-              id="education-nav"
-              className="nav-link js-scroll"
-              href="#education"
-            >
-              <h6 className="nav-section-text">Education</h6>
-            </a>
-          </li>
+          
           <li className="nav-item">
             <a
               id="projects-nav"

@@ -73,11 +73,21 @@ export default function Projects() {
           />
           <ProjectCard
             projectInfo={{
+              name: "Easypaisa.com.pk",
+              link: "https://easypaisa.com.pk/",
+              icon: faGlobe,
+              desc:
+                "Brand web application for Easypaisa by Telenor Microfinance Bank",
+              skills: ["Php", "JQuery", "mySQL"],
+            }}
+          />
+          <ProjectCard
+            projectInfo={{
               name: "Mario 2D",
               link: "https://github.com/ammadUmarDev/Mario-Bros-Computer-Organization-and-Assembly-Language-Project",
               icon: faGamepad,
               desc:
-                "Sudoku validator implementing core operating system concepts",
+                "3 level 2D game where Mario climbs hurdles and dodges enemies",
               skills: ["Assembly x86"],
             }}
           />
@@ -121,16 +131,7 @@ export default function Projects() {
               skills: ["Flutter", "Firebase", "SQLite"],
             }}
           />
-          <ProjectCard
-            projectInfo={{
-              name: "Easypaisa.com.pk",
-              link: "https://easypaisa.com.pk/",
-              icon: faGlobe,
-              desc:
-                "Brand web application for Easypaisa by Telenor Microfinance Bank",
-              skills: ["Php", "JQuery", "mySQL"],
-            }}
-          />
+          
           <ProjectCard
             projectInfo={{
               name: "Adravaline.com",
