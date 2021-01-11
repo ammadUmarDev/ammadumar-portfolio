@@ -10,7 +10,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  max-width: 680px;
   height: auto;
   background-color: white;
   border-radius: 10px;
@@ -43,7 +42,7 @@
   text-overflow: ellipsis;
   color: #606060;
   margin-bottom: 0.75rem;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: -0.5px;
   overflow: hidden;

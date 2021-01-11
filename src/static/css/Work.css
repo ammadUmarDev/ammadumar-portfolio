@@ -35,7 +35,7 @@ a {
 
 .experience-company {
   color: #606060;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   text-align: center;
   margin: 0em;
@@ -54,9 +54,10 @@ a {
 
 .experience-text-role {
   text-align: center;
+  padding-top: 10px;
   color: #606060;
-  font-weight: bold;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 14px;
 }
 
 .experience-text-date {
@@ -91,23 +92,6 @@ a {
     margin: 20px;
     padding: 0 0 0 0;
   }
-
-  .experience-card {
-    margin-top: 2em;
-    font-size: 0.7em;
-  }
-
-  .experience-text-role {
-    font-size: 1.5em;
-  }
-
-  .experience-img {
-    width: 4rem;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
   .experience-card:hover {
     transform: none;
   }

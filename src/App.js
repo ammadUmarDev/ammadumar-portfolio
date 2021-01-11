@@ -23,10 +23,7 @@ function onLeave(origin, destination, direction) {
 }
 
 export default function App(props) {
-  useEffect(() => {
-    ReactGA.initialize(process.env.REACT_APP_GA_KEY);
-    ReactGA.pageview("/");
-  }, []);
+
 
   return (
     <div className="main">
