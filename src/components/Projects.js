@@ -2,13 +2,7 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 import Fade from "react-reveal/Fade";
 import {
-  faDesktop,
-  faCamera,
-  faFileAlt,
-  faTabletAlt,
-  faDiceD20,
   faLaptopCode,
-  faHeartbeat,
   faGlobe,
   faMobile,
   faGamepad
@@ -165,7 +159,7 @@ export default function Projects() {
           <ProjectCard
             projectInfo={{
               name: "Online Resume",
-              link: "https://ammadumar.netlify.app/",
+              link: "https://ammad-umar.netlify.app/",
               icon: faGlobe,
               desc:
                 "Current site is built using React JS. An older version of my online resume to explore",

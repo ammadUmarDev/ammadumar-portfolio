@@ -5,10 +5,8 @@ import {
   faRobot,
   faShapes,
   faLaptopCode,
-  faHeartbeat,
   faDraftingCompass,
   faMemory,
-  faWrench,
 } from "@fortawesome/free-solid-svg-icons";
 import ReactGA from "react-ga";
 

@@ -1,12 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import {
-  faMemory,
-  faCogs,
   faBrain,
-  faDiceD20,
-  faLaptopCode,
-  faToolbox,
   faDownload,
   faDesktop,
   faServer,

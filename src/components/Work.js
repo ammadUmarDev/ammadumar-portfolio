@@ -1,11 +1,8 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import WorkCard from "./cards/WorkCard";
-import xLogo from "../static/images/X.jpg";
-import telenorLogo from "../static/images/logos/telenor.png";
 import easypaisaLogo from "../static/images/logos/easypaisa.png";
 import synergyLogo from "../static/images/logos/synergy.png";
-import nucesLogo from "../static/images/logos/nuces.png";
 import vecLogo from "../static/images/logos/2vec.png";
 import "../static/css/Work.css";
 

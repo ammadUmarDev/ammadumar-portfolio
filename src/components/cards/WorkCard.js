@@ -24,6 +24,7 @@ export default function ExperienceCard({ cardInfo }) {
         <img
           className="experience-img"
           src={cardInfo.logo}
+          alt=""
         
         />
         <div className="experience-text-details">
