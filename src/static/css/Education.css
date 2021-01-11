@@ -108,21 +108,6 @@
     width: 100%;
   }
 
-  .school-name-mobile {
-    font-size: 1.8em;
-    font-weight: 700;
-    margin-left: 0.8em;
-  }
-
-  .school-name {
-    font-size: 0;
-  }
-
-  .degree-name {
-    padding-top: 2px;
-    font-size: 1.25em;
-  }
-
   .school-info-div {
     display: flex;
     flex-direction: row;
@@ -134,9 +119,9 @@
   }
 
   .education-img {
-    width: 4rem !important;
-    height: 4rem !important;
-    border-radius: 50%;
+    width: 50px;
+    height: 75px;
+    padding-bottom: 20px;
   }
 
   .education-card-right {

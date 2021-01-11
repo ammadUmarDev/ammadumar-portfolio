@@ -23,13 +23,13 @@
   padding-top: 100px;
   padding-bottom: 20px;
   color: #445c74;
-  font-size: 22px !important;
+  font-size: 22px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
 }
 
 .about-text {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.3em;
   text-align: justify;
   font-family: "Montserrat", sans-serif;
@@ -77,9 +77,6 @@
 }
 
 @media (min-width: 2000px) {
-  .about-left {
-    font-size: 1em;
-  }
 }
 
 @media (max-width: 1050px) {
@@ -87,14 +84,8 @@
     flex-flow: column wrap;
   }
 
-  .about-greeting {
-    font-size: 22px !important;
-  }
-
   .about-left {
-    order: 1;
     width: 80%;
-    font-size: 0.6em !important;
   }
 
   .about-right {

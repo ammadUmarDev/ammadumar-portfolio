@@ -64,14 +64,14 @@ body {
 }
 
 .main-title {
-  font-size: 3.8em;
+  font-size: 50px;
   font-weight: 600;
   margin: 0;
   color: #445c74;
 }
 
 .main-subtitle {
-  font-size: 2em;
+  font-size: 30px;
   font-weight: 400;
 }
 
@@ -247,7 +247,7 @@ body {
 
   .nav-section-text {
     color: #606060;
-    font-size: 12px;
+    font-size: 8px;
   }
 
   .navbar-b.navbar-trans .nav-link:hover:before,
