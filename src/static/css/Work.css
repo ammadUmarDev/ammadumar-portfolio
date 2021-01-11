@@ -4,20 +4,17 @@ a {
 
 .experience-cards-div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   column-gap: 3em;
   row-gap: 1em;
   margin: 0 5em;
 }
 
 .experience-card {
-  display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
   background: white;
-  min-height: 500px;
   border-radius: 10px;
+  padding: 20px;
 }
 
 .experience-card:hover {
@@ -48,7 +45,6 @@ a {
   width: 100px;
   margin-top: -50px;
   margin-bottom: -80px;
-  border-radius: 50%;
 }
 
 .experience-text-details {

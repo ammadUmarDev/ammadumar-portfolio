@@ -21,19 +21,21 @@ export default function ExperienceCard({ cardInfo }) {
     >
       <div className="experience-card">
         <h5 className="experience-company">{cardInfo.company}</h5>
-        <img
-          className="experience-img"
-          src={cardInfo.logo}
-          alt=""
-        
-        />
-        <div className="experience-text-details">
           <h5 className="experience-text-role">{cardInfo.role}</h5>
           <h5 className="experience-text-date">{cardInfo.date}</h5>
           <p className="experience-text-desc">{cardInfo.desc}</p>
           <ul className="experience-text-desc-bullets">
             <GetDescBullets descBullets={cardInfo.descBullets} />
           </ul>
+          <div className="experience-text-details">
+          <span><img
+          className="experience-img"
+          src={cardInfo.logo}
+          alt=""
+        />
+        </span>
+        <span>{cardInfo.childern}</span>
+        
         </div>
       </div>
     </ReactGA.OutboundLink>

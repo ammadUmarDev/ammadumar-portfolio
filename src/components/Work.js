@@ -30,7 +30,9 @@ export default function Work() {
                   "Deployment on a remote Red hat server.",
                 ],
               }}
-            />
+            >
+              <img className="experience-img" src="../static/images/logos/telenor.png" alt="" />
+            </WorkCard>
           
             <WorkCard
               cardInfo={{
