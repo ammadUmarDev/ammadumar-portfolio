@@ -87,14 +87,14 @@ a {
   }
 
   .experience-cards-div {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 20px;
+    padding: 0 0 0 0;
   }
 
   .experience-card {
     margin-top: 2em;
     font-size: 0.7em;
-    min-height: 0;
   }
 
   .experience-text-role {
