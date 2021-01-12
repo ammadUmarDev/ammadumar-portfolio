@@ -20,7 +20,7 @@ export default function Projects() {
       <div className="more-projects">
         <ReactGA.OutboundLink
           eventLabel="Socials: Github [from Projects]"
-          to="https://github.com/diegomtzg"
+          to="https://github.com/ammadUmarDev"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -47,7 +47,7 @@ export default function Projects() {
           <ProjectCard
             projectInfo={{
               name: "Web RTC Ext.",
-              link: "https://github.com/diegomtzg/ScreenBacklight",
+              link: "https://github.com/ammadUmarDev/EInViGiL-chrome-extension",
               icon: faLaptopCode,
               desc:
                 "Chrome Extension that records Screen Activity, Camera, and Microphone sends data to flask server",
