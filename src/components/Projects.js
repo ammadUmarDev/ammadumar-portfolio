@@ -129,7 +129,7 @@ export default function Projects() {
           <ProjectCard
             projectInfo={{
               name: "Adravaline.com",
-              link: "https://adraveline.com/",
+              link: "https://adraveline-cs.netlify.app/",
               icon: faGlobe,
               desc:
                 "Landing Page for Adraveline. Web application automating business coming soon",
